@@ -1,0 +1,59 @@
+h1 {
+    color : blue; 
+     } 
+    * {
+   border: outset ;
+   border-color: violet;
+   }    
+   .header {
+    background-color: palegreen; 
+    display: flex;
+    justify-content: space-between; 
+    border-radius: 30px;
+   } 
+   .menu {
+    background-color: yellow;
+    border-radius: 30px;
+   }
+
+  .grid :hover {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    width:200px; 
+    margin: 30;  
+  } 
+
+  .grid:hover { 
+    transform: scale(1.2); 
+  } 
+  .grid { 
+    position: relative;
+   } 
+   .grid p
+   { position: absolute; 
+    top: 50%; 
+    left: 50%;
+     transform: translate(250%, -50%);
+      opacity:0;
+     } 
+      .grid:hover p{ 
+        opacity: 1; 
+      }
+
+
+  .footer {
+    display: flex; 
+    justify-content: flex-end;
+  } 
+  p,h2 {
+    text-align: center;  
+  } 
+  .item {
+    border-radius: 30px; 
+  }
+  body {
+  background-color: fuchsia;
+  background-image: url("b1.jpg");
+  background-size: 100% 100%; 
+  }
